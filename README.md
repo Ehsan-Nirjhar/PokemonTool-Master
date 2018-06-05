@@ -1,5 +1,7 @@
 # About
 This is an application to visualize Pokemon data is a simple way for the purpose of generating user logs so that we mine and visual said logs to understand how people use visualizations with multiple views.
+Original repository link: https://github.com/arpachuilo/PokeVis 
+This is a modified version of the original repository.
 
 # Requirements
 ### Redis
