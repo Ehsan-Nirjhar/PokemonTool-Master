@@ -1,0 +1,74 @@
+.tooltip
+	line-height 1.1
+	font-size 15px
+	padding 6px
+	background rgba(0,0,0,0.8)
+	color #fff
+	border-radius 4px
+	pointer-events none
+
+.tooltip .title
+	color #ffa500
+	font-size 1.1em
+	line-height 1.4
+
+.tooltip .title:after
+	color #999
+	content "\00A0\2192\00A0"
+
+/* Creates a small triangle extender for the tooltip */
+.tooltip:after
+	box-sizing border-box
+	display inline
+	font-size 14px
+	width 100%
+	line-height 1
+	color rgba(0,0,0,0.8)
+	position absolute
+	pointer-events none
+
+/* Northward tooltips */
+.tooltip.n:after
+	content "\25BC"
+	margin -3px 0 0 0
+	top 100%
+	left 0
+	text-align center
+
+/* Eastward tooltips */
+.tooltip.e:after
+	content "\25C0"
+	margin -4px 0 0 0
+	top 50%
+	left -8px
+
+/* Southward tooltips */
+.tooltip.s:after
+	content "\25B2"
+	margin 0 0 1px 0
+	top -12px
+	left 0
+	text-align center
+
+/* Westward tooltips */
+.tooltip.w:after
+	content "\25B6"
+	margin -4px 0 0 -1px
+	top 50%
+	left 100%
+
+/* Northwest tooltips */
+.tooltip.nw:after
+	content "\25BC"
+	margin -4px 0 0 0
+	top 100%
+	left 0
+	text-align right
+
+/* Northeast tooltips */
+.tooltip.ne:after
+	content "\25BC"
+	margin -4px 0 0 0
+	top 100%
+	left 0
+	text-align left
