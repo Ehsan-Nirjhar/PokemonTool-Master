@@ -19,6 +19,8 @@ This is a modified version of the original repository.
 3. `npm run server`
 4. `npm start`
 
+If these steps do not work, follow the steps provided in alternate README. 
+
 ### Pulling Results
 The command `npm run dump` will output logs into `logs/data.json`
 
